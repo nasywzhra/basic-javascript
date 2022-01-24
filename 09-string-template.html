@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>String Template</title>
+</head>
+<body>
+    <script>
+        const name = "Nasywa Zahra";
+        const firstName = "IDN";
+        const middleName = "Boarding";
+        const lastName = "School"
+
+        const template = `Name : $(name);`
+        console.info(template);
+        const school = `School : $(firstName) $(middleName) $(lastName)`;
+        // Const school = "School :" + " " + firstName + " " + middleName + " " + lastName;
+        console.info(school);
+        // Console.info(school2);
+
+        // Expretion String Template
+        const nilai = 50;
+        const template2 = `Name : $(name), Lulus : $(nilai > 70)`;
+
+        const multiLine = `IDN Boarding School terletak di jonggol Saya senang skula disini`;
+        document.writeln(multiLine);
+
+    </script>
+    
+</body>
+</html>
